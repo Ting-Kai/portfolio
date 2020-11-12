@@ -17,13 +17,17 @@
         font-weight: bolder;
     }
 
+
     .header_btn {
         display: flex;
         justify-content: center;
         top: 0;
         width: 100%;
         background-color: white;
+        text-decoration: none;
     }
+
+
 
     .resume_btn {
         border: 3px black solid;
@@ -35,6 +39,12 @@
         color: white;
         font-size: 20px;
         line-height: 40px;
+        text-decoration: none;
+    }
+
+    .resume_btn:hover {
+        text-decoration: none;
+        color: white;
     }
 
     .showreel_btn {
@@ -47,6 +57,11 @@
         color: black;
         font-size: 20px;
         line-height: 40px;
+    }
+
+    .showreel_btn:hover {
+        text-decoration: none;
+        color: black;
     }
 
     .myphoto {
