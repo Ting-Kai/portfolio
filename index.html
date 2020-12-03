@@ -15,29 +15,73 @@
 </head>
 
 <body>
-    <div class="container-fluid full-height">
-        <div class="row full-height">
-            <div id="left-line" class="col-auto m-5 p-0 vl bg-dark"></div>
-            <div id="content" class="col">
-                <div class="row">
-                    <div class="col header_btn m-4">
-                        <a href="index.html" class="resume_btn">
-                            <p>RESUME</p>
-                        </a>
-                        <a href="index02.html" class="showreel_btn">
-                            <p>SHOWREEL</p>
-                        </a>
-                    </div>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-top">
+        <div class="container-fulid">
+           
+            <div class="navbar-header">
+                <a href="" class="navbar-brand">PRINT</a>
+            </div>
+            
+            <div class="collapse navbar-collapse">
+                <div class="nav navbar-nav">
+                    <li><a href="">簡介</a></li>
+                    <li><a href="">經歷</a></li>
+                    <li><a href="">技能</a></li>
+                    <li><a href="">聯絡我</a></li>
                 </div>
-                <div class="row m-5 p5">
-                    <div class="col">
-                        <img src="img/myphoto.png" alt="" class="img-fluid myphoto">
+            </div>
+            
+        </div>
+    </nav>
+
+    <!--
+    <header class="navbar navbar-default navbar-fixed-top">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-7 col-md-5 col-lg-3  m-3 p-0 btn-group border border-secondary rounded">
+                <button type="button" class="btn btn-dark resume_btn" onclick="location.href='index.html'">
+                    <p class="m-0 p-1">RESUME</p>
+                </button>
+
+                <button type="button" class="btn btn-light showreel_btn" onclick="location.href='index02.html'">
+                    <p class="m-0 p-1">PROJECT</p>
+                </button>
+
+            </div>
+        </div>
+    </header>
+-->
+
+    <div class="container-fluid full-height p-5">
+        <div class="row full-height">
+            <div id="left-line" class="d-none d-lg-block col-auto mx-5 p-0 vl bg-dark"></div>
+            <div id="content" class="col">
+                <div class="row m-0 p-0 page01">
+
+                    <div class="col myphoto ">
+                        <img src="img/myphoto.png" alt="" class="img-fulid ">
                     </div>
-                    <div class="col">
-                        <img src="img/main_text.png" alt="" class="img-fluid bg-white main-text">
+
+                    <div class="col bg-white main-text full-height">
+                        <div class="row">
+                            <p class="">PORTFOLIO</p>
+                        </div>
+                        <div class="row">
+                            <p class="">OF</p>
+                        </div>
+                        <div class="row">
+                            <p class="">TING-KAI</p>
+                        </div>
+                        <div class="row">
+                            <p class="">CHEN</p>
+                        </div>
                     </div>
+
                 </div>
 
+<!--
+                
+                
                 <div class="row m-5 p-5 page02">
                     <div class="col-auto m-auto">
                         <img src="img/myphoto.png" alt="" class="myphoto02">
@@ -57,7 +101,11 @@
                         </div>
                     </div>
                 </div>
-
+                
+-->
+<!--
+                
+                
                 <div class="row m-5">
                     <div class="col-5 m-5">
                         <img src="img/myphoto_big.png" alt="" class="myphoto-big">
@@ -96,10 +144,14 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
+                
 
+-->
+<!--
+                
+                
                 <div class="row m-5">
                     <div class="col-5 m-5">
                         <img src="img/myphoto_big.png" alt="" class="myphoto-big">
@@ -119,24 +171,58 @@
                         </div>
                     </div>
                 </div>
+                
+-->
+
             </div>
-            <div id="right-line" class="col-auto m-5 p-0 vl bg-dark"></div>
+            <div id="right-line" class="d-none d-lg-block col-auto mx-5 p-0 vl bg-dark"></div>
         </div>
     </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <footer>
+        <div class="row m-0 p-0 bg-dark">
+            <div class="col dg-dark">
+                <div class="row">
+                    <div class="cow m-3">
+                        <p>國立台北科技大學</p>
+                    </div>
+                    <div class="cow m-3">
+                        <P>互動設計系</P>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cow m-2">
+                        <p>tkch9973@gmail.com</p>
+                    </div>
+                    <div class="cow m-2"></div>
+                    <div class="cow m-2">
+                        <p>+886 9 7215 8381</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
-</body>
 
-<style>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-</style></html>
+    <!--GSAP　and ScrollMagic-->
+<!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js" integrity="sha512-kDuUo39RGApdfHkM1WQL8Pg9BYtYGS5rD14AzePsD4SEaixw7v/ykAkLMdsSjuBCNFE6/FAP+WIHh6N6QZJl5w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js" integrity="sha512-hFyYiBIWCYSyo98oFGWjG5V8HEV4g5O2pxu0mzU8qIMC7lrrwtcKWoRDZcpRL0ywIIM2d/XsBJ9iXNLFf6kIgw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js" integrity="sha512-7nSmgdAZ7oPdT5aa2a4YauI8Y1xgaj6zZtQo9+EIEhpcNEiRHPAtyTKYckBQ0lmg1xQKrdWweHBcN/D0tdnvCw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js" integrity="sha512-pvDW4tehKKsohH97164HwKwRGFpzayEFWTVbk8HuUoLIQ7Jp+WLN5XYokVuoCj2aT6dy8ihbW8SRTG1k0W4mSQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js" integrity="sha512-tSIDeirKC6suYILHqqPuZH3s0MvD4a5vCHXhBIcdmq4gQXZ2IB3fEYA5x2f3D2p/CbSqzKEvuTEVbS5VZ2u+ew==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js" integrity="sha512-ocsFo48WU8Xq6Y1Lwi7psXRAujG9E4TKNR4q1DbrKzaaxOMTEoao/a+mDoB+cYzY4lwbyxvqjkp/ZA1/MNlfsg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js" integrity="sha512-plyexAULVlTExvDn2yUZFJV9F8q+53MC/GpU9dEuNGXmrrI3J8Rcffjvxg3OOBALBvF+UILPLIBEoCeF2maqTQ==" crossorigin="anonymous"></script>
+-->
+
+
+    <script src="scripts/scripts.js"></script>
+
+</body></html>
