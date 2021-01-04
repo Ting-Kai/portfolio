@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-html,
-body {
-    height: 100%;
-}
-
 p {
     font-family: din-condensed, sans-serif;
     font-style: normal;
@@ -16,20 +11,29 @@ p {
     padding: 0;
 }
 
-.full-height {
-    height: 100%;
+.container-fluid{
+    margin-top: 70px;
+    width: auto;
+    height: auto;
+}
+
+.content-box{
+    margin: 0px 120px;
+    height: calc(100vh - 70px);
 }
 
 .left-side{
     left: 0;
-    height: 90vh;
+    top: 70px;
+    height: 85vh;
     overflow: hidden;
     position: fixed;
 }
 
 .right-side{
     right: 0;
-    height: 90vh;
+    top: 70px;
+    height: 85vh;
     overflow: hidden;
     position: fixed;
 }
@@ -48,36 +52,18 @@ p {
 
 .right-side .vertical-text{
     writing-mode: vertical-rl;
-}
-
-.page01 {
-    width: 100%;
-    height: 200vh;
+    font-size: large;
 }
 
 .myphoto {
-    height: 85vh;
-    width: auto;
-    align-content: center;
-    margin-left: 20%;
-}
-
-.main-text {
-    display: inline;
-    white-space: nowrap;
-    overflow: visible;
+    height: calc(100vh - 100px);
     position: absolute;
-    margin-left: 36%;
 }
 
-.main-font {
+.main-font{
+    height: calc(100vh - 100px);
     font-family: Barlow Semi Condensed, sans-serif;
     line-height: 12rem;
-    font-size: 15rem;
+    font-size: 13rem;
+    position: absolute;
 }
-
-footer {
-    width: 100%;
-    color: white;
-}
-
