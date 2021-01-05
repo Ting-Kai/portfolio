@@ -11,6 +11,14 @@ p {
     padding: 0;
 }
 
+span{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-justify: distribute;
+}
+
 .container-fluid{
     margin-top: 70px;
     width: auto;
@@ -25,7 +33,7 @@ p {
 .left-side{
     left: 0;
     top: 70px;
-    height: 85vh;
+    height: calc(100vh - 150px);
     overflow: hidden;
     position: fixed;
 }
@@ -33,7 +41,7 @@ p {
 .right-side{
     right: 0;
     top: 70px;
-    height: 85vh;
+    height: calc(100vh - 150px);
     overflow: hidden;
     position: fixed;
 }
@@ -57,13 +65,43 @@ p {
 
 .myphoto {
     height: calc(100vh - 100px);
-    position: absolute;
+    position: relative;
+    right: -50%;
 }
 
-.main-font{
+.myphoto-debug{
     height: calc(100vh - 100px);
-    font-family: Barlow Semi Condensed, sans-serif;
-    line-height: 12rem;
-    font-size: 13rem;
-    position: absolute;
+    position: relative;
+}
+
+.maintext{
+    height: calc(100vh - 100px);
+}
+
+.info{
+    width: calc(100% - 280px); 
+}
+
+.experience{
+    width: calc(100% - 200px);
+    margin: auto;
+    margin-top: 196px;
+    height: auto;
+}
+
+.el{
+    width: 2px;
+    height: 90%;
+    background-color: rgb(105, 105, 105);
+    margin: 5px auto;
+}
+
+ul li{
+    list-style: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-justify: distribute;
+    line-height: 30px;
 }
