@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/my.css">
     <link rel="stylesheet" href="css/my02.css">
@@ -15,7 +16,7 @@
     <title>KEN'S PORTFOLIO</title>
 </head>
 
-<body>    
+<body>
     <!-- Header button -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="mx-auto">
@@ -49,56 +50,122 @@
         <div class="row content-box justify-content-center align-content-center">
             <button id="school_project" class="col-6 col-md-3">
                 <div class="row"><img src="img/Asset 9.png" alt=""></div>
-                <div class="row"><h3>學校專案</h3></div>
+                <div class="row">
+                    <h3>學校專案</h3>
+                </div>
             </button>
             <button id="work_project" class="col-6 col-md-3">
                 <div class="row"><img src="img/Asset 8.png" alt=""></div>
-                <div class="row"><h3>實習專案</h3></div>
+                <div class="row">
+                    <h3>實習專案</h3>
+                </div>
             </button>
             <button id="rase_project" class="col-6 col-md-3">
                 <div class="row"><img src="img/Asset 11.png" alt=""></div>
-                <div class="row"><h3>競賽專案</h3></div>
+                <div class="row">
+                    <h3>競賽專案</h3>
+                </div>
             </button>
             <button id="other_project" class="col-6 col-md-3">
                 <div class="row"><img src="img/Asset 9.png" alt=""></div>
-                <div class="row"><h3>其他專案</h3></div>
+                <div class="row">
+                    <h3>其他專案</h3>
+                </div>
             </button>
         </div>
 
-        <div id="carouselExampleIndicators" class="carousel slide project-box bg-dark">
+        <div id="carouselExampleIndicators" class="carousel slide project-box" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="col-5"><img class="img-fluid bg-white" src="img/Asset 15.png" alt=""></div>
-                <div class="col"></div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
+            <div class="carousel-inner h-100">
+
+                <div class="carousel-item active h-100">
+                    <div class="row h-100 w-75 m-auto align-items-center">
+                        <div class="col-6">
+                            <img class="img-fluid bg-white" src="img/book.png" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h3>大一上期末專題 | HAPPY PILLS</h3>
+                            <h3>主題:快樂</h3>
+                            <hr>
+                            <span>
+                                透過立體繪本，分享我們快樂的童年，結合具備互動性的電子元件，做出一本充滿驚喜與快樂的故事書。
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row h-100 w-75 m-auto align-items-center">
+                        <div class="col-6">
+                            <img class="img-fluid bg-white" src="img/RMA.png" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h3>大一下期末專題 | 阿嬤帶你飛</h3>
+                            <h3>主題:時間與空間</h3>
+                            <hr>
+                            <span>
+                                將阿茲海默症患者所產生的時空錯覺，幻化成一場時空跳躍之旅，以阿茲海默症的病癥發想，做一款互動式的賽車遊戲，面對著已經逃不了的事情不如換個方式面對，翻轉人們對阿茲海默症悲觀的想像。
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row h-100 w-75 m-auto align-items-center">
+                        <div class="col-6">
+                            <img class="img-fluid bg-white" src="img/shapeofsound.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <h3>大二下期末專題 | Shape Of Sound</h3>
+                            <hr>
+                            <span>
+                                利用重量偵測的方式象徵接收資訊的多寡，即時運算利用深度相機所拍攝一則新聞播報及採訪的影片，裝置上的物品也代表媒體道德或是不同立場的新聞媒體，希望觀眾體驗完後能反思及提升自己的媒體素養。
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row h-100 w-75 m-auto align-items-center">
+                        <div class="col-5">
+                            <img class="img-fluid bg-white" src="img/盲武士.png" alt="">
+                        </div>
+
+                        <div class="col mx-5">
+                            <h3>畢業製做專題 | 盲武士</h3>
+                            <hr>
+                            <span>
+                                一款沒有視覺的VR遊戲，應用VR追蹤的技術，固定音效的方位，讓玩家透過聽音辨位的方式擊殺敵人， 贏得勝利。
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </a>
-          </div>
-
+        </div>
     </div>
 
-    
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
     <script src="scripts/scripts-2.js"></script>
 
@@ -106,4 +173,6 @@
 
 <style>
 
-</style></html>
+</style>
+
+</html>
