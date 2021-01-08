@@ -19,3 +19,8 @@ button .row{
 .carousel-item{
     height: 100%;
 }
+
+.project-box{
+    margin: 60px 120px;
+    height: calc(100vh - 190px);
+}
