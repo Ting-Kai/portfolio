@@ -1,107 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 p {
-    font-family: din-condensed, sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    margin: 0;
-    padding: 0;
+  font-family: din-condensed, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
 }
 
-span{
-    color:black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    text-justify: distribute;
+span {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-justify: distribute;
 }
 
-.container-fluid{
-    margin-top: 70px;
-    width: auto;
-    height: auto;
+.container-fluid {
+  margin-top: 70px;
+  width: auto;
+  height: auto;
 }
 
-.content-box{
-    margin: 0px 120px;
-    height: calc(100vh - 70px);
+.content-box {
+  margin: 0px 120px;
+  min-height: calc(100vh - 70px);
 }
 
-.left-side{
-    left: 0;
-    top: 70px;
-    height: calc(100vh - 150px);
-    overflow: hidden;
-    position: fixed;
+.left-side {
+  left: 0;
+  top: 70px;
+  height: calc(100vh - 150px);
+  overflow: hidden;
+  position: fixed;
 }
 
-.right-side{
-    right: 0;
-    top: 70px;
-    height: calc(100vh - 150px);
-    overflow: hidden;
-    position: fixed;
+.right-side {
+  right: 0;
+  top: 70px;
+  height: calc(100vh - 150px);
+  overflow: hidden;
+  position: fixed;
 }
 
 .vl {
-    width: 3px;
-    height: 100%;
-    background-color: black;
-    margin: 5px auto;
+  width: 3px;
+  height: 100%;
+  background-color: black;
+  margin: 5px auto;
 }
 
-.left-side .vertical-text{
-    writing-mode: vertical-rl;
-    transform: rotate(-180deg);
+.left-side .vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
 }
 
-.right-side .vertical-text{
-    writing-mode: vertical-rl;
-    font-size: large;
+.right-side .vertical-text {
+  writing-mode: vertical-rl;
+  font-size: large;
+}
+
+.img-fluid {
+  max-width: 70%;
+  height: auto;
 }
 
 .myphoto {
-    height: calc(100vh - 100px);
-    position: relative;
-    right: -50%;
+  height: calc(100vh - 100px);
+  position: relative;
+  right: -50%;
 }
 
-.myphoto-debug{
-    height: calc(100vh - 100px);
-    position: relative;
+.maintext {
+  height: calc(100vh - 100px);
 }
 
-.maintext{
-    height: calc(100vh - 100px);
+.info {
+  width: calc(100% - 280px);
 }
 
-.info{
-    width: calc(100% - 280px); 
+.experience {
+  width: calc(100% - 280px);
+  margin: auto;
+  margin-top: 196px;
+  height: auto;
 }
 
-.experience{
-    width: calc(100% - 200px);
-    margin: auto;
-    margin-top: 196px;
-    height: auto;
+.el {
+  width: 2px;
+  height: 90%;
+  background-color: rgb(105, 105, 105);
+  margin: 5px auto;
 }
 
-.el{
-    width: 2px;
-    height: 90%;
-    background-color: rgb(105, 105, 105);
-    margin: 5px auto;
+ul li {
+  list-style: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-justify: distribute;
+  line-height: 30px;
 }
 
-ul li{
-    list-style: none;
-    color:black;
-    font-family: 'Roboto', sans-serif;
+#radar {
+  height: 80%;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+
+   span{
     font-size: 1.1rem;
-    font-weight: 600;
-    text-justify: distribute;
-    line-height: 30px;
+   }
+    
+  .content-box {
+    margin: 0px;
+  }
+
+  .maintext {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  .info {
+    width: calc(100% - 50px);
+  }
+
+  .experience {
+    width: calc(100% - 80px);
+  }
 }
