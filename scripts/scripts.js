@@ -9,7 +9,7 @@ let timeLine = gsap.timeline({
         trigger:".myphoto",
         start:"top 70px",
         end:"100%",
-        markers:true,
+        markers:false,
         scrub:true,
         pin:".page01",
     }
